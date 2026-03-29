@@ -96,12 +96,16 @@
   import { getAuth, onAuthStateChanged, signOut, sendPasswordResetEmail } from "https://www.gstatic.com/firebasejs/11.9.1/firebase-auth.js";
   import { getDatabase, ref, onValue, get, set, update, remove, query, orderByChild, equalTo } from "https://www.gstatic.com/firebasejs/11.9.1/firebase-database.js";
 
-  const firebaseConfig = {
-    apiKey: "AIzaSyDW5APPZMu-lojVRNg89ZDBEY14YD77xd4",
-    authDomain: "ecolife--v1.firebaseapp.com",
-    databaseURL: "https://ecolife--v1-default-rtdb.europe-west1.firebasedatabase.app",
-    projectId: "ecolife--v1"
-  };
+const firebaseConfig = {
+  apiKey: "AIzaSyAVOP9aNlz-XUw5zGd6bklKjckQLafCjo4",
+  authDomain: "db-for-gic.firebaseapp.com",
+  databaseURL: "https://db-for-gic-default-rtdb.asia-southeast1.firebasedatabase.app",
+  projectId: "db-for-gic",
+  storageBucket: "db-for-gic.firebasestorage.app",
+  messagingSenderId: "241516079038",
+  appId: "1:241516079038:web:7a73409907809bf30ebbef",
+  measurementId: "G-GP44DK06BL"
+};
 
   const app = initializeApp(firebaseConfig);
   const auth = getAuth(app);
