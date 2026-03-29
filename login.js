@@ -3,13 +3,14 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/fireba
 import { getAuth, signInWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-auth.js";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDW5APPZMu-lojVRNg89ZDBEY14YD77xd4",
-  authDomain: "ecolife--v1.firebaseapp.com",
-  projectId: "ecolife--v1",
-  storageBucket: "ecolife--v1.appspot.com",
-  messagingSenderId: "655418620895",
-  appId: "1:655418620895:web:e5b3ea0cb3b7ec97a26b38",
-  databaseURL: "https://ecolife--v1-default-rtdb.europe-west1.firebasedatabase.app/"
+  apiKey: "AIzaSyAVOP9aNlz-XUw5zGd6bklKjckQLafCjo4",
+  authDomain: "db-for-gic.firebaseapp.com",
+  databaseURL: "https://db-for-gic-default-rtdb.asia-southeast1.firebasedatabase.app",
+  projectId: "db-for-gic",
+  storageBucket: "db-for-gic.firebasestorage.app",
+  messagingSenderId: "241516079038",
+  appId: "1:241516079038:web:7a73409907809bf30ebbef",
+  measurementId: "G-GP44DK06BL"
 };
 
 const app = initializeApp(firebaseConfig);
